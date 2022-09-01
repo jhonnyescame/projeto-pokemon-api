@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Primary Meta Tags -->
+  <title>Projeto Pokemon API</title>
+  <meta name="title" content="Projeto Pokemon API">
+  <meta name="description" content="Projeto criado para os alunos do Codeboost. O projeto tem o intuito de ensinar os alunos a fazer requisição a API com Javascript.">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://metatags.io/">
+  <meta property="og:title" content="Projeto Pokemon API">
+  <meta property="og:description" content="Projeto criado para os alunos do Codeboost. O projeto tem o intuito de ensinar os alunos a fazer requisição a API com Javascript.">
+  <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://metatags.io/">
+  <meta property="twitter:title" content="Projeto Pokemon API">
+  <meta property="twitter:description" content="Projeto criado para os alunos do Codeboost. O projeto tem o intuito de ensinar os alunos a fazer requisição a API com Javascript.">
+  <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+  <link rel="stylesheet" href="./css/plugins.css">
+  <link rel="stylesheet" href="./css/main.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <a href="" class="logo">
+        <img src="img/logo.svg" alt="Logo do Pokemon" title="Logo do Pokemon">
+      </a>
+      <p>Case Study  ->  Code<strong>Boost</strong></p>
+    </div>
+  </header>
+
+ <section class="s-area-slide-hero">
+    <div class="slide-hero">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="main-area">
+            <div class="container">
+              <div class="text">
+                <div class="tag">
+                  <div class="icon">
+                    <img src="img/bag-red.svg" alt="">
+                  </div>
+                  <span>pokedex</span>
+                </div>
+                <h1>Who is that Pokémon?</h1>
+                <p>The perfect guide for those who want to hunt Pokémons around the world</p>
+
+                <div class="image">
+                  <img src="img/lighting.svg" class="lights" alt="Luzes" title="Luzes">
+                  <img src="img/pokeball-red.png" class="pokeball" alt="Pokeball" title="Pokeball">
+                </div>
+              </div>
+              <div class="area-explore">
+                <div class="txt">
+                  <div class="icon">
+                    <img src="img/arrow-down-white.svg" alt="">
+                  </div>
+                  <span>explore</span>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide blue">
+          <div class="main-area">
+            <div class="container">
+              <div class="text">
+                <div class="tag blue-tag">
+                  <div class="icon">
+                    <img src="img/bag-red.svg" alt="">
+                  </div>
+                  <span>pokedex</span>
+                </div>
+                <h1>Catch them all!</h1>
+                <p>The perfect guide for those who want to hunt Pokémons around the world</p>
+
+                <div class="image">
+                  <img src="img/lighting.svg" class="lights" alt="Luzes" title="Luzes">
+                  <img src="img/pokeball-blue.png" class="pokeball" alt="Pokeball" title="Pokeball">
+                </div>
+              </div>
+              <div class="area-explore">
+                <div class="txt">
+                  <div class="icon">
+                    <img src="img/arrow-down-white.svg" alt="">
+                  </div>
+                  <span>explore</span>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide black">
+          <div class="main-area">
+            <div class="container">
+              <div class="text">
+                <div class="tag black-tag">
+                  <div class="icon">
+                    <img src="img/bag-red.svg" alt="">
+                  </div>
+                  <span>pokedex</span>
+                </div>
+                <h1>Let's take!</h1>
+                <p>The perfect guide for those who want to hunt Pokémons around the world</p>
+
+                <div class="image">
+                  <img src="img/lighting.svg" class="lights" alt="Luzes" title="Luzes">
+                  <img src="img/pokeball-black.png" class="pokeball" alt="Pokeball" title="Pokeball">
+                </div>
+              </div>
+              <div class="area-explore">
+                <div class="txt">
+                  <div class="icon">
+                    <img src="img/arrow-down-white.svg" alt="">
+                  </div>
+                  <span>explore</span>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+ 
+  <section class="s-all-info-pokemons">
+    <div class="container">
+      <div class="top">
+        <h2>Select your Pokémon</h2>
+        <div class="search">
+          <input type="text" placeholder="Search name or code" id="js-input-search">
+          <button type="button" id="js-btn-search">
+            <img src="img/icon-search.svg" alt="">
+          </button>
+        </div>
+      </div>
+      <div class="area-all">
+        <div class="left-container">
+          <ul id="js-type-area">
+            <li>
+              <button class="type-filter active all" code-type="">
+                <div class="icon">
+                  <img src="img/icon-all.svg" alt="">
+                </div>
+                <span>All</span>
+              </button>
+            </li>
+            <!--
+            <li>
+              <button class="type-filter fighting" code-type="">
+                <div class="icon">
+                  <img src="img/icon-types/fighting.svg" alt="">
+                </div>
+                <span>Fighting</span>
+              </button>
+            </li> 
+          -->
+          </ul>
+        </div>
+        <div class="right-container">
+          <div class="top-container">
+            <div>
+              <img src="img/icon-pokeball.svg" alt="">
+              <span><strong id="js-count-pokemons"> - </strong> Pokémons</span>
+            </div>
+          </div>
+          <div class="select-custom">
+            <button class="item-selected js-open-select-custom">
+              <span>Show:</span>
+              <strong>All</strong>
+            </button>
+            <ul class="dropdown-select">
+              <li>
+                <button class="type-filter active" code-type="">
+                  <div class="icon">
+                    <img src="img/icon-all.svg" alt="">
+                  </div>
+                  <span>All</span>
+                </button>
+              </li>
+            </ul>
+          </div>
+          <div class="all" id="js-list-pokemons">
+            <!-- <button class="card-pokemon grass js-open-details-pokemon">
+              <div class="image">
+                <img src="./img/bulbasaur.svg" class="thumb-img">
+              </div>
+              <div class="info">
+                <div class="text">
+                  <span>#001</span>
+                  <h3>Bulbasaur</h2>
+                </div>
+                <div class="icon">
+                  <img src="img/icon-types/grass.svg">
+                </div>
+              </div>
+            </button> -->
+          </div>
+          <div class="not-pokemons" id="not-pokemons">
+            <h2>Nenhum Pokemon encontrado!</h2>
+          </div>
+          <button class="btn-load-more" id="js-btn-load-more">Load more Pokémons</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <footer>
+    <div class="container">
+      <div class="text">
+        <h3>Módulo JavaScript</h3>
+        <p>Consumindo e exibindo dados de uma API</p>
+      </div>
+      <a href="https://codeboost.com.br" target="_blank">
+        <img src="img/codeboost.svg" alt="">
+      </a>
+    </div>
+  </footer>
+
+
+
+  <div class="modal" type-pokemon-modal="grass" id="js-modal-details">
+    <div class="overlay"></div>
+    <div class="box">
+      <button class="close js-close-modal-details-pokemon">
+        <img src="img/close.svg" alt="">
+      </button>
+      <div class="left-container">
+        <div class="icon">
+          <img src="img/icon-types/grass.svg" id="js-image-type-modal" alt="">
+        </div>
+        <div class="image">
+          <img src="img/bulbasaur.svg" alt="" id="js-image-pokemon-modal">
+        </div>
+      </div>
+      <div class="right-container">
+        <div class="name">
+          <h2 id="js-name-pokemon-modal">Bulbasaur</h2>
+          <span id="js-code-pokemon-modal">#001</span>
+        </div>
+        <ul class="type" id="js-types-pokemon">
+          <li>
+            <span class="tag-type fire">Fire</span>
+          </li>
+          <li>
+            <span class="tag-type poison">Poison</span>
+          </li>
+        </ul>
+        <ul class="info">
+          <li>
+            <span>Height</span>
+            <strong id="js-height-pokemon">0.7m</strong>
+          </li>
+          <li>
+            <span>Weight</span>
+            <strong id="js-weight-pokemon">6.9kg</strong>
+          </li>
+          <li>
+            <span>Abilities</span>
+            <strong id="js-main-abilities">Overgrow</strong>
+            <!-- <button class="tag" id="js-show-more-abilities">Ver mais...</button>
+            <div class="ballon" id="js-ballon-abilities">
+              <strong>Overgrow</strong>
+            </div> -->
+          </li>
+        </ul>
+        <div class="weak">
+          <h4>Weaknesses</h4>
+          <ul id="js-area-weak">
+            <li>
+              <span class="tag-type water">Water</span>
+            </li>
+          </ul>
+        </div>
+        <div class="stats">
+          <h5>Stats</h5>
+          <div class="all">
+            <div class="item">
+              <span>HP</span>
+              <div class="bar-status">
+                <div class="bar" id="js-stats-hp"></div>
+                <ul class="separator">
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </div>
+            </div>
+            <div class="item">
+              <span>Attack</span>
+              <div class="bar-status">
+                <div class="bar" id="js-stats-attack"></div>
+                <ul class="separator">
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </div>
+            </div>
+            <div class="item">
+              <span>Defense</span>
+              <div class="bar-status">
+                <div class="bar" id="js-stats-defense"></div>
+                <ul class="separator">
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </div>
+            </div>
+            <div class="item">
+              <span>Sp. attack</span>
+              <div class="bar-status">
+                <div class="bar" id="js-stats-sp-attack"></div>
+                <ul class="separator">
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </div>
+            </div>
+            <div class="item">
+              <span>Sp. defense</span>
+              <div class="bar-status">
+                <div class="bar" id="js-stats-sp-defense"></div>
+                <ul class="separator">
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </div>
+            </div>
+            <div class="item">
+              <span>Speed</span>
+              <div class="bar-status">
+                <div class="bar" id="js-stats-speed"></div>
+                <ul class="separator">
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="js/plugins.js"></script>
+  <script src="js/all.js"></script>
+</body>
+
+</html>
