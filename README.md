@@ -16,12 +16,11 @@
 
 ###
 <div align="center">
-  <img height="177" src="https://raw.githubusercontent.com/wagstalos/pokemon-api-codeboost/master/img/pokeball-red.png"  />
+  <img height="177" src="https://raw.githubusercontent.com/jhonnyescame/projeto-pokemon-api/main/img/pokeball-black.png"  />
 </div>
-
 
 Feito com ❤️ por Jhonny Escame 👋🏽<br />
 Entre em contato!
 
-[![Linkedin Badge](https://img.shields.io/badge/-Wagner-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jhonnyescame/)](https://www.linkedin.com/in/jhonnyescame/)
+[![Linkedin Badge](https://img.shields.io/badge/-Jhonny-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jhonnyescame/)](https://www.linkedin.com/in/jhonnyescame/)
 [![Gmail Badge](https://img.shields.io/badge/-jhonny.escame@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:jhonny.escame@gmail.com)](mailto:jhonny.escame@gmail.com)
